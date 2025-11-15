@@ -21,3 +21,7 @@ def get_credentials(salt):
     ph.check_needs_rehash(hash)
 
     return username, hash
+
+
+#if __name__ == "__main__":
+    #main()
