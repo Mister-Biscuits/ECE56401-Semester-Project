@@ -3,8 +3,8 @@ import socket, ssl, threading
 
 HOST = "0.0.0.0"
 PORT = 5000
-CERTFILE = "/path/to/server.crt"
-KEYFILE  = "~/media/sf_School/ECE56401_Computer_Security/project_server/server.key"
+CERTFILE = "server.crt"
+KEYFILE  = "server.key"
 
 def handle_client(ssock, addr):
     print("[+] TLS connection from", addr)
